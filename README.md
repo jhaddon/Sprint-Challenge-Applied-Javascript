@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is the Document Object Model. One way to think of it is the DOM is an interpreter of sorts. To use the website-as-a-house analogy from earlier in our lessons if HTML is the blueprints/framework, CSS is the general appearance, and JS is the magic that makes it interactive (light switches turn on/off, doors are open, closed, or closed and locked, etc) then the DOM would be an artists rendition of what is happening. As the artist shows the potential buyer changes can be made on the fly without changing the actual blueprint. Lights and window shades can be adjusted at will to see possibilities that weren't there before. The DOM can be accessed and changed by multiple sources (the architect, the designer and the buyer) without permanent changes to the core foundation.
+
 2. What is an event?
+
+Events are any action that takes place inside the DOM, be it from the user or from code itself. If a user clicks on something, that's an event. If the page is resized, that's an event. If an item is dragged, selected or hovered over by the mouse, those are all events.
 
 3. What is an event listener?
 
+Elements can be set to be on the lookout for specific events, and react accordingly, through the use of event listeners. For instance, you can use event listeners to popup an alert if someone tries to highlight text. You can have an image grow in size when a mouse hovers over it, and then shrink back to normal when the mouse leaves. You can hide or display items based on a mouse click, or a keypress.
+
 4. Why would we convert a NodeList into an Array?
 
+Arrays offer more methods of manipulation than a NodeList does. NodeLists are Array-like, but they're also Array-light. Meaning they start counting at 0 like an Array, they have access to forEach like an Array, but unlike Arrays they don't have access to other methods like .map, .reduce or .filter.
+
 5. What is a component?
+
+Components are reusable code. Any time you see something on a website, or in a draft for a project you will be creating, you should try to see if there's any repeating patterns. Any form of newsfeed is a prime example. Each individual tweet, Facebook post, Instagram photo, article on Hacker News or reddit or CNN, those are all components. You can build/code them once and then reuse them. Components make for much better DRY code, saving you time and effort. Components can utilize HTML, CSS and/or JS, which makes them extremely useful and versatile.
 
 ### Git Set up
 
